@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CorentinNordmann/static/css/main.a212c086.css",
+    "main.css": "/CorentinNordmann/static/css/main.dc4e9453.css",
     "main.js": "/CorentinNordmann/static/js/main.78d23e08.js",
     "static/media/twitch.mp4": "/CorentinNordmann/static/media/twitch.e72a1fdc88b5a4975c41.mp4",
     "static/media/profil.png": "/CorentinNordmann/static/media/profil.3939c674af015ae7d1b9.png",
@@ -9,11 +9,11 @@
     "static/media/new_cv.pdf": "/CorentinNordmann/static/media/new_cv.a3ab719e0966ae2a9702.pdf",
     "static/media/background.jpeg": "/CorentinNordmann/static/media/background.602f5e9b928244d9297e.jpeg",
     "index.html": "/CorentinNordmann/index.html",
-    "main.a212c086.css.map": "/CorentinNordmann/static/css/main.a212c086.css.map",
+    "main.dc4e9453.css.map": "/CorentinNordmann/static/css/main.dc4e9453.css.map",
     "main.78d23e08.js.map": "/CorentinNordmann/static/js/main.78d23e08.js.map"
   },
   "entrypoints": [
-    "static/css/main.a212c086.css",
+    "static/css/main.dc4e9453.css",
     "static/js/main.78d23e08.js"
   ]
 }
