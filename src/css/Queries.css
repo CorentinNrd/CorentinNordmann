@@ -1,0 +1,415 @@
+@media screen and (max-width: 768px) {
+
+    #title {
+        padding: 30px;
+        margin-left: -30%;
+    }
+
+    #nav {
+        display: block;
+        margin-right: -90%;
+    }
+
+    #nav ul li {
+        list-style-type: none;
+        display: list-item;
+        font-size: 12px;
+    }
+
+    #profil_pic {
+        width: 300px;
+        height: 380px;
+        justify-content: center;
+    }
+
+    #name {
+        font-size: 40px;
+        margin-left: -45px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #last_name {
+        font-size: 40px;
+        margin-left: -15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #info_Contact {
+        display: flex;
+        flex-direction: column;
+        font-family: Courier, monospace;
+        margin-top: -4%;
+        margin-left: 70%;
+        font-size: 14px;
+    }
+
+    #info_Contact a {
+        color: black;
+    }
+
+    #email:hover {
+        color: rgba(2, 0, 0, 0.336);
+    }
+
+    #download_cv {
+        margin-top: 5%;
+        cursor: pointer;
+        color: white;
+        border: 1px solid black;
+        width: 100px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    #seeTwitch {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 15%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    #closeTwitch {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogTwitch {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #closeTwitter {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogTwitter {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #seeSnapchat {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 15%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    #closeSnapchat {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogSnapchat {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #contact-form {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    #nav {
+        display: block;
+        margin-right: 1%;
+    }
+
+    #nav ul li {
+        list-style-type: none;
+        display: list-item;
+        font-size: 12px;
+    }
+
+    #profil_pic {
+        /* margin-top: 5%; */
+        width: 200px;
+        height: 280px;
+        justify-content: center;
+    }
+
+    #name {
+        font-size: 40px;
+        margin-left: -45px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #last_name {
+        font-size: 40px;
+        margin-left: -15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #info_Contact {
+        display: flex;
+        flex-direction: column;
+        font-family: Courier, monospace;
+        margin-top: 15%;
+        margin-left: 50%;
+        font-size: 14px;
+    }
+
+    #info_Contact a {
+        color: black;
+    }
+
+    #email:hover {
+        color: rgba(2, 0, 0, 0.336);
+    }
+
+    #download_cv {
+        margin-top: 5%;
+        cursor: pointer;
+        color: white;
+        border: 1px solid black;
+        width: 100px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    #seeTwitch {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 15%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    #closeTwitch {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogTwitch {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #closeTwitter {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogTwitter {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #seeSnapchat {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 15%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    #closeSnapchat {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogSnapchat {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #contact-form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #nav ul li a {
+        font-size: 13px;
+    }
+
+    #seeTwitch {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 15%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    #closeTwitch {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogTwitch {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #closeTwitter {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogTwitter {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+
+    #seeSnapchat {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 15%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    #closeSnapchat {
+        text-align: center;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+    #dialogSnapchat {
+        animation: appear 500ms ease-in 1;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: none;
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 644px) {
+    #title {
+        padding: 30px;
+        margin-left: -10%;
+    }
+
+    #nav {
+        display: block;
+        margin-right: -40%;
+    }
+}
