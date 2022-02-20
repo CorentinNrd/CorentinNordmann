@@ -413,3 +413,77 @@
         margin-right: -40%;
     }
 }
+
+@media screen and (max-width: 391px) {
+
+    #profil_pic {
+        /* margin-top: 5%; */
+        width: 170px;
+        height: 230px;
+        justify-content: center;
+    }
+
+    #title {
+        padding: 30px;
+        margin-left: -10%;
+    }
+
+    #nav {
+        display: block;
+        /* margin-right: -30%; */
+        margin-right: 0%;
+    }
+
+    #hello {
+        font-size: 25px;
+    }
+
+    #world {
+        font-size: 25px;
+    }
+
+    #info_Contact {
+        display: flex;
+        flex-direction: column;
+        font-family: Courier, monospace;
+        margin-top: 15%;
+        font-size: 14px;
+    }
+
+    #name {
+        font-size: 30px;
+        margin-left: -30px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #last_name {
+        font-size: 30px;
+        margin-left: -10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #seeTwitch {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 20%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+
+    #seeSnapchat {
+        margin-top: 1%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        width: 20%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+}

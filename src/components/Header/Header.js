@@ -3,7 +3,7 @@ import '../../css/App.css'
 import '../../css/Queries.css';
 import '../../css/bootstrap.min.css'
 import ProfilPic from '../../assets/profil.png';
-import Cv from '../../assets/new_cv.pdf';
+import Cv from '../../assets/cv.pdf';
 import { Link } from 'react-scroll';
 
 const Header = () => {
