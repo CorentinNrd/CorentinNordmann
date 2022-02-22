@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/CorentinNordmann/static/css/main.dc4e9453.css",
-    "main.js": "/CorentinNordmann/static/js/main.23f09e84.js",
+    "main.js": "/CorentinNordmann/static/js/main.64c090c2.js",
     "static/media/twitch.mp4": "/CorentinNordmann/static/media/twitch.e72a1fdc88b5a4975c41.mp4",
     "static/media/profil.png": "/CorentinNordmann/static/media/profil.3939c674af015ae7d1b9.png",
     "static/media/Twitter.mp4": "/CorentinNordmann/static/media/Twitter.b6aa477a701777c955f5.mp4",
     "static/media/Snapchat.mp4": "/CorentinNordmann/static/media/Snapchat.21e68b4352fc67c19f48.mp4",
-    "static/media/cv.pdf": "/CorentinNordmann/static/media/cv.e60d86c6a67b420811e0.pdf",
+    "static/media/cv.pdf": "/CorentinNordmann/static/media/cv.86f0cf2243693a56faaf.pdf",
     "static/media/background.jpeg": "/CorentinNordmann/static/media/background.602f5e9b928244d9297e.jpeg",
     "index.html": "/CorentinNordmann/index.html",
     "main.dc4e9453.css.map": "/CorentinNordmann/static/css/main.dc4e9453.css.map",
-    "main.23f09e84.js.map": "/CorentinNordmann/static/js/main.23f09e84.js.map"
+    "main.64c090c2.js.map": "/CorentinNordmann/static/js/main.64c090c2.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4e9453.css",
-    "static/js/main.23f09e84.js"
+    "static/js/main.64c090c2.js"
   ]
 }
