@@ -2,9 +2,9 @@ import React from "react";
 import '../../css/App.css';
 import '../../css/Queries.css';
 import '../../css/bootstrap.min.css';
-import Twitch from '../../assets/twitch.mp4';
-import Twitter from '../../assets/Twitter.mp4';
-import Snapchat from '../../assets/Snapchat.mp4'
+import TwitchImg from '../../assets/twitchScreen.png';
+import TwitterImg from '../../assets/TwitterScreen.png'
+import Previously from '../../assets/PrevOn.png';
 
 const Body = () => {
     return (
@@ -14,7 +14,7 @@ const Body = () => {
             <section id="content">
                 <div id="content-inner">
                     <div className="card" id="card_twitch" style={{ width: "60%" }}>
-                        <video id="twitch" src={Twitch} type="video/mp4" autoPlay={true} loop></video>
+                        <img id="twitch" src={TwitchImg} alt="chargement" />
                         <input type="checkbox" id="toggleTwitch" />
                         <dialog id="dialogTwitch">
                             <h4 className="text-center">Projet <a href="https://github.com/CorentinNrd/Udemy-Projet-Twitch"
@@ -48,7 +48,7 @@ const Body = () => {
                     <label id="seeTwitch" htmlFor="toggleTwitch">Détails du projet</label>
 
                     <div className="card" id="card_twitter" style={{ width: "60%" }}>
-                        <video id="twitter" src={Twitter} type="video/mp4" autoPlay={true} loop></video>
+                        <img id="twitter" src={TwitterImg} alt="chargement" />
                         <input type="checkbox" id="toggleTwitter" />
                         <dialog id="dialogTwitter">
                             <h4 className="text-center">Projet <a href="https://github.com/CorentinNrd/Udemy_Project_Twitter"
@@ -74,36 +74,32 @@ const Body = () => {
                     </div>
                     <label id="seeTwitch" htmlFor="toggleTwitter">Détails du projet</label>
 
-                    <div className="card" id="card_snapchat" style={{ width: "60%" }}>
-                        <video id="snapchat" src={Snapchat} type="video/mp4" autoPlay={true} loop></video>
-                        <input type="checkbox" id="toggleSnapchat" />
-                        <dialog id="dialogSnapchat">
-                            <h4 className="text-center">Projet <a href="https://github.com/CorentinNrd/Snapchat-Clone"
-                                target="blank">Snapchat</a></h4>
+                    <div className="card" id="card_prev" style={{ width: "60%" }}>
+                        <img id="prev" src={Previously} alt="chargement" />
+                        <input type="checkbox" id="togglePrev" />
+                        <dialog id="dialogPrev">
+                            <h4 className="text-center">Projet <a href="#"
+                                target="blank">Previously_On</a></h4>
                             <div className="text">
                                 <span>
-                                    Ce projet a été réalisé en groupe de 3.
+                                    Ce projet a été réalisé en groupe de 2.
                                     <br />
-                                    Pour ce projet nous avions dû recréer Snapchat.
+                                    Pour ce projet nous avions dû créer une plateforme permettant de suivre ses films ou séries (similaire au principe de TV-Time).
                                     <br /><br />
-                                    Nous avions une API donnée pour gérer nos inscriptions, nos connexions, et la création de
-                                    notre token utilisateur.
+                                    Nous devions utiliser l'API de Betaseries afin de nous authentifier avec celle-ci et créer toutes nos requêtes.
                                     <br /><br />
-                                    Dans ce projet nous avons pu développer une application mobile, ou nous pouvions nous
-                                    connecter, nous inscrire, accéder à la galerie du téléphone si celle-ci avait les
-                                    autorisations, ainsi qu'à la caméra. Nous avons aussi dû créer la prévisualisation lors
-                                    d'une prise de photo ainsi que la possibilité de l'enlever.
+                                    Dans ce projet nous avons pu développer nous avons utiliser NodeJs pour récupérer les informations à l'authentification et ReactJs
+                                    pour la partie front du projet.
                                     <br /><br />
-                                    Snapchat était un projet pour le moins très instructif pour assimiler la syntaxe de React
-                                    ainsi que pour développer notre première application mobile sur expo.
+                                    Previously_On était un projet de spécialisation, nous permettant de vraiment appronfondir nos acquis sur les technos de nos choix.
                                 </span>
                             </div>
-                            <div id="divCloseSnapchat">
-                                <label id="closeSnapchat" htmlFor="toggleSnapchat">Fermer</label>
+                            <div id="divClosePrev">
+                                <label id="closePrev" htmlFor="togglePrev">Fermer</label>
                             </div>
                         </dialog>
                     </div>
-                    <label id="seeSnapchat" htmlFor="toggleSnapchat">Détails du projet</label>
+                    <label id="seePrev" htmlFor="togglePrev">Détails du projet</label>
 
                 </div>
             </section>

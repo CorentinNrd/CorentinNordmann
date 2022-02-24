@@ -53,6 +53,7 @@ const Header = () => {
                 <a id="email" href="mailto: coconrd@icloud.com">coconrd@icloud.com</a>
                 <span>06 27 17 91 83</span>
                 <span>Paris</span>
+                <span>22 ans</span>
                 <a className="btn" id="download_cv" href={Cv} download>Télécharger mon cv</a>
             </div>
         </div>
