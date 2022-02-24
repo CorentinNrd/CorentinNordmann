@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/CorentinNordmann/static/css/main.dc4e9453.css",
-    "main.js": "/CorentinNordmann/static/js/main.64c090c2.js",
-    "static/media/twitch.mp4": "/CorentinNordmann/static/media/twitch.e72a1fdc88b5a4975c41.mp4",
+    "main.css": "/CorentinNordmann/static/css/main.5c6e0136.css",
+    "main.js": "/CorentinNordmann/static/js/main.27b68e51.js",
+    "static/media/PrevOn.png": "/CorentinNordmann/static/media/PrevOn.0447529c86a287c55885.png",
+    "static/media/twitchScreen.png": "/CorentinNordmann/static/media/twitchScreen.b729e894f2e58f7997b0.png",
     "static/media/profil.png": "/CorentinNordmann/static/media/profil.3939c674af015ae7d1b9.png",
-    "static/media/Twitter.mp4": "/CorentinNordmann/static/media/Twitter.b6aa477a701777c955f5.mp4",
-    "static/media/Snapchat.mp4": "/CorentinNordmann/static/media/Snapchat.21e68b4352fc67c19f48.mp4",
-    "static/media/cv.pdf": "/CorentinNordmann/static/media/cv.86f0cf2243693a56faaf.pdf",
+    "static/media/cv.pdf": "/CorentinNordmann/static/media/cv.46229d9444804be43825.pdf",
+    "static/media/TwitterScreen.png": "/CorentinNordmann/static/media/TwitterScreen.9ca83e9064017c72e06d.png",
     "static/media/background.jpeg": "/CorentinNordmann/static/media/background.602f5e9b928244d9297e.jpeg",
     "index.html": "/CorentinNordmann/index.html",
-    "main.dc4e9453.css.map": "/CorentinNordmann/static/css/main.dc4e9453.css.map",
-    "main.64c090c2.js.map": "/CorentinNordmann/static/js/main.64c090c2.js.map"
+    "main.5c6e0136.css.map": "/CorentinNordmann/static/css/main.5c6e0136.css.map",
+    "main.27b68e51.js.map": "/CorentinNordmann/static/js/main.27b68e51.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc4e9453.css",
-    "static/js/main.64c090c2.js"
+    "static/css/main.5c6e0136.css",
+    "static/js/main.27b68e51.js"
   ]
 }
