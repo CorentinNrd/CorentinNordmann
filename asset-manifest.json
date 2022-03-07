@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CorentinNordmann/static/css/main.5c6e0136.css",
-    "main.js": "/CorentinNordmann/static/js/main.27b68e51.js",
+    "main.css": "/CorentinNordmann/static/css/main.2d22a43f.css",
+    "main.js": "/CorentinNordmann/static/js/main.7ea2dae1.js",
     "static/media/PrevOn.png": "/CorentinNordmann/static/media/PrevOn.0447529c86a287c55885.png",
     "static/media/twitchScreen.png": "/CorentinNordmann/static/media/twitchScreen.b729e894f2e58f7997b0.png",
     "static/media/profil.png": "/CorentinNordmann/static/media/profil.3939c674af015ae7d1b9.png",
@@ -9,11 +9,11 @@
     "static/media/TwitterScreen.png": "/CorentinNordmann/static/media/TwitterScreen.9ca83e9064017c72e06d.png",
     "static/media/background.jpeg": "/CorentinNordmann/static/media/background.602f5e9b928244d9297e.jpeg",
     "index.html": "/CorentinNordmann/index.html",
-    "main.5c6e0136.css.map": "/CorentinNordmann/static/css/main.5c6e0136.css.map",
-    "main.27b68e51.js.map": "/CorentinNordmann/static/js/main.27b68e51.js.map"
+    "main.2d22a43f.css.map": "/CorentinNordmann/static/css/main.2d22a43f.css.map",
+    "main.7ea2dae1.js.map": "/CorentinNordmann/static/js/main.7ea2dae1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c6e0136.css",
-    "static/js/main.27b68e51.js"
+    "static/css/main.2d22a43f.css",
+    "static/js/main.7ea2dae1.js"
   ]
 }
