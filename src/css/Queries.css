@@ -157,6 +157,19 @@
 }
 
 @media screen and (max-width: 430px) {
+    #content {
+        background-color: #162f2f;
+        background-size: 100% 100%;
+    }
+
+    #content-inner {
+        padding-top: 5%;
+        padding-bottom: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
     #nav {
         display: block;
@@ -170,7 +183,6 @@
     }
 
     #profil_pic {
-        /* margin-top: 5%; */
         width: 200px;
         height: 280px;
         justify-content: center;
@@ -271,7 +283,7 @@
         overflow: scroll;
     }
 
-    #seeSnapchat {
+    #seePrev {
         margin-top: 1%;
         cursor: pointer;
         color: white;
@@ -283,7 +295,7 @@
         font-size: 10px;
     }
 
-    #closeSnapchat {
+    #closePrev {
         text-align: center;
         align-items: center;
         margin-top: 5%;
@@ -292,7 +304,7 @@
         width: 15%;
     }
 
-    #dialogSnapchat {
+    #dialogPrev {
         animation: appear 500ms ease-in 1;
         font-size: 12px;
         position: absolute;
@@ -306,6 +318,10 @@
 
     #contact-form {
         width: 70%;
+    }
+
+    #backtop {
+        display: none;
     }
 }
 
@@ -368,7 +384,7 @@
         overflow: scroll;
     }
 
-    #seeSnapchat {
+    #seePrev {
         margin-top: 1%;
         cursor: pointer;
         color: white;
@@ -380,7 +396,7 @@
         font-size: 16px;
     }
 
-    #closeSnapchat {
+    #closePrev {
         text-align: center;
         align-items: center;
         margin-top: 5%;
@@ -389,7 +405,7 @@
         width: 15%;
     }
 
-    #dialogSnapchat {
+    #dialogPrev {
         animation: appear 500ms ease-in 1;
         font-size: 12px;
         position: absolute;
@@ -410,14 +426,12 @@
 
     #nav {
         display: block;
-        margin-right: -40%;
     }
 }
 
 @media screen and (max-width: 391px) {
 
     #profil_pic {
-        /* margin-top: 5%; */
         width: 170px;
         height: 230px;
         justify-content: center;
@@ -430,7 +444,6 @@
 
     #nav {
         display: block;
-        /* margin-right: -30%; */
         margin-right: 0%;
     }
 
@@ -475,7 +488,7 @@
         font-size: 13px;
     }
 
-    #seeSnapchat {
+    #seePrev {
         margin-top: 1%;
         cursor: pointer;
         color: white;

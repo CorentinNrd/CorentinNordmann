@@ -7,6 +7,31 @@ import TwitterImg from '../../assets/TwitterScreen.png'
 import Previously from '../../assets/PrevOn.png';
 
 const Body = () => {
+
+    const onClickTwitch = () => {
+        document.getElementById("dialogTwitch").style.zIndex = 3;
+    }
+
+    const onCloseTwitch = () => {
+        document.getElementById("dialogTwitch").style.zIndex = 0;
+    }
+
+    const onClickTwitter = () => {
+        document.getElementById("dialogTwitter").style.zIndex = 3;
+    }
+
+    const onCloseTwitter = () => {
+        document.getElementById("dialogTwitter").style.zIndex = 0;
+    }
+
+    const onClickPrev = () => {
+        document.getElementById("dialogPrev").style.zIndex = 3;
+    }
+
+    const onClosePrev = () => {
+        document.getElementById("dialogPrev").style.zIndex = 0;
+    }
+
     return (
         <div>
             <div className="margin"></div>
@@ -41,11 +66,11 @@ const Body = () => {
                                 </span>
                             </div>
                             <div id="divCloseTwitch">
-                                <label id="closeTwitch" htmlFor="toggleTwitch">Fermer</label>
+                                <label onClick={onCloseTwitch} id="closeTwitch" htmlFor="toggleTwitch">Fermer</label>
                             </div>
                         </dialog>
                     </div>
-                    <label id="seeTwitch" htmlFor="toggleTwitch">Détails du projet</label>
+                    <label onClick={onClickTwitch} id="seeTwitch" htmlFor="toggleTwitch">Détails du projet</label>
 
                     <div className="card" id="card_twitter" style={{ width: "60%" }}>
                         <img id="twitter" src={TwitterImg} alt="chargement" />
@@ -68,11 +93,11 @@ const Body = () => {
                                 </span>
                             </div>
                             <div id="divCloseTwitter">
-                                <label id="closeTwitter" htmlFor="toggleTwitter">Fermer</label>
+                                <label onClick={onCloseTwitter} id="closeTwitter" htmlFor="toggleTwitter">Fermer</label>
                             </div>
                         </dialog>
                     </div>
-                    <label id="seeTwitch" htmlFor="toggleTwitter">Détails du projet</label>
+                    <label onClick={onClickTwitter} id="seeTwitch" htmlFor="toggleTwitter">Détails du projet</label>
 
                     <div className="card" id="card_prev" style={{ width: "60%" }}>
                         <img id="prev" src={Previously} alt="chargement" />
@@ -95,11 +120,11 @@ const Body = () => {
                                 </span>
                             </div>
                             <div id="divClosePrev">
-                                <label id="closePrev" htmlFor="togglePrev">Fermer</label>
+                                <label onClick={onClosePrev} id="closePrev" htmlFor="togglePrev">Fermer</label>
                             </div>
                         </dialog>
                     </div>
-                    <label id="seePrev" htmlFor="togglePrev">Détails du projet</label>
+                    <label onClick={onClickPrev} id="seePrev" htmlFor="togglePrev">Détails du projet</label>
 
                 </div>
             </section>
