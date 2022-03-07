@@ -82,7 +82,7 @@ const Body = () => {
                                 <span>
                                     J'ai réalisé ce projet suite à un projet similaire avec la Web@cadémie.
                                     <br /><br />
-                                    Ce projet n'est pas encore terminé, pour le moment nous, pouvons nous inscrire, nous
+                                    Sur ce projet, pouvons nous inscrire, nous
                                     connecter, écrire un post et le poster liker le post, retweeter le post, commenter le post
                                     ainsi que visualiser les commentaires, le nombre de likes et de retweets, nous avons aussi
                                     accès aux profils d'autres utilisateurs ainsi que le sien, et pouvons suivre d'autres
